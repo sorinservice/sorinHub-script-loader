@@ -33,7 +33,7 @@ local function attachTab(name, url, iconKey)
     local Tab = Window:MakeTab({ Name = name, Icon = iconKey })
     local mod, err = safeRequire(url)
     if not mod then
-        Tab:AddParagraph("Fehler", err or "Unbekannter Fehler")
+        Tab:AddParagraph("Fehler", err or "Unbekannter  Fehler")
         return
     end
     local ok, msg = pcall(mod, Tab, OrionLib)
