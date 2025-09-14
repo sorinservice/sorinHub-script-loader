@@ -9,7 +9,7 @@ local Window = OrionLib:MakeWindow({
 
 -- Tabs-Mapping
 local TABS = {
-    Shop = "https://raw.githubusercontent.com/sorinservice/dein-repo/main/tabs/shop.lua",
+    Shop = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/shop.lua",
 }
 
 -- Loader-Helfer
