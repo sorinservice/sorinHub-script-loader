@@ -3,8 +3,10 @@ local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/sori
 
 -- Fenster erstellen
 local Window = OrionLib:MakeWindow({
+    Name         = "SorinHub | Farming and Friends"
+    IntroText    = "SorinHub | Preislistenuebersicht"
     SaveConfig   = true,
-    ConfigFolder = "SorinConfig"
+    ConfigFolder = "SorinConfig_FAF"
 })
 
 -- Tabs-Mapping
