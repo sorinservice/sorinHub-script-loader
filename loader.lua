@@ -13,7 +13,7 @@ local Window = OrionLib:MakeWindow({
 local TABS = {
     Crops   = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/crops.lua",
     Liquids = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/liquids.lua",
-    Misc    = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/misc.lua",
+    Misc    = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/misc.lua"
 }
 
 -- Loader-Helfer
