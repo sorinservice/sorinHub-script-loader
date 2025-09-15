@@ -9,7 +9,9 @@ local Window = OrionLib:MakeWindow({
 
 -- Tabs-Mapping
 local TABS = {
-    Shop = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/shop.lua",
+    Crops   = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/crops.lua",
+    Liquids = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/liquids.lua",
+    Misc    = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/misc.lua",
 }
 
 -- Loader-Helfer
@@ -43,7 +45,9 @@ local function attachTab(name, url, iconKey)
 end
 
 -- Tabs laden
-attachTab("Shop", TABS.Shop, "main")
+attachTab("Crops",   TABS.Crops,   "main")
+attachTab("Liquids", TABS.Liquids, "main")
+attachTab("Misc",    TABS.Misc,    "main")
 
 -- UI starten
 OrionLib:Init()
