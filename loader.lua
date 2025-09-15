@@ -3,8 +3,8 @@ local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/sori
 
 -- Fenster erstellen
 local Window = OrionLib:MakeWindow({
-    Name         = "SorinHub | Farming and Friends"
-    IntroText    = "SorinHub | Preislistenuebersicht"
+    Name         = "SorinHub | Farming and Friends",
+    IntroText    = "SorinHub | Preislistenuebersicht",
     SaveConfig   = true,
     ConfigFolder = "SorinConfig_FAF"
 })
