@@ -6,10 +6,10 @@ return function(tab, OrionLib)
     ----------------------------------------------------------------
     -- CONFIG
     ----------------------------------------------------------------
-    local CATEGORY_KEYWORDS = { "Crop", "Crops" } -- matches Title.Text on the board
+    local CATEGORY_KEYWORDS = { "Crop", "Crops", "Crop Sell Values" } -- matches Title.Text on the board
     local PREFERRED_SIDE = "FrontSellValue"       -- fallback to BackSellValue if missing
     local AUTOREFRESH_DEFAULT = false
-    local AUTOREFRESH_INTERVAL_DEFAULT = 5        -- seconds
+    local AUTOREFRESH_INTERVAL_DEFAULT = 15        -- seconds
     local SORT_DEFAULT = "Value (desc)"           -- default sorting
 
     ----------------------------------------------------------------
