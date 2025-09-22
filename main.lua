@@ -3,17 +3,16 @@ local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/sori
 
 -- Fenster erstellen
 local Window = OrionLib:MakeWindow({
-    Name         = "SorinHub | Farming and Friends",
-    IntroText    = "SorinHub | Preislistenuebersicht",
+    Name         = "SorinHub | Misc Hub",
+    IntroText    = "SorinServices Hub",
     SaveConfig   = true,
-    ConfigFolder = "SorinConfig_FAF"
+    ConfigFolder = "SorinConfig_Misc"
 })
 
 -- Tabs-Mapping
 local TABS = {
-    Crops   = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/crops.lua",
-    Liquids = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/liquids.lua",
-    Misc    = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/misc.lua"
+    ESP   = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/crops.lua",
+
 }
 
 -- Loader-Helfer
@@ -47,9 +46,8 @@ local function attachTab(name, url, iconKey)
 end
 
 -- Tabs laden
-attachTab("Crops",   TABS.Crops,   "main")
-attachTab("Liquids", TABS.Liquids, "main")
-attachTab("Misc",    TABS.Misc,    "main")
+attachTab("ESP",   TABS.ESP,   "main")
+
 
 -- UI starten
 OrionLib:Init()
