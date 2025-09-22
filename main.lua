@@ -11,7 +11,7 @@ local Window = OrionLib:MakeWindow({
 
 -- Tabs-Mapping
 local TABS = {
-    ESP   = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/crops.lua",
+    ESP   = "https://raw.githubusercontent.com/sorinservice/sorinHub-script-loader/main/tabs/visuals.lua",
 
 }
 
