@@ -1,5 +1,5 @@
 -- Orion laden
-local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/sorinservice/orion-lib/refs/heads/main/orion.lua"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/sorinservice/script-libary/main/OrionLibary.lua"))()
 
 -- Fenster erstellen
 local Window = OrionLib:MakeWindow({
